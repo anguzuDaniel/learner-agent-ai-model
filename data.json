@@ -1,0 +1,44 @@
+{
+    "intents": [
+        {
+            "tag": "arrays",
+            "patterns": [
+                "What is an array?",
+                "Define array.",
+                "Explain arrays."
+            ],
+            "responses": [
+                {
+                    "type": "course",
+                    "id": 101,
+                    "name": "Introduction to Data Structures"
+                },
+                {
+                    "type": "resource",
+                    "id": 202,
+                    "name": "Array Basics PDF"
+                }
+            ]
+        },
+        {
+            "tag": "loops",
+            "patterns": [
+                "What are loops?",
+                "Explain loops in programming.",
+                "Define loops."
+            ],
+            "responses": [
+                {
+                    "type": "course",
+                    "id": 103,
+                    "name": "Programming Fundamentals"
+                },
+                {
+                    "type": "resource",
+                    "id": 205,
+                    "name": "Looping Constructs Video"
+                }
+            ]
+        }
+    ]
+}
